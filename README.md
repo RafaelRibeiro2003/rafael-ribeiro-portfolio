@@ -15,7 +15,7 @@ Este projeto teve como principal objetivo criar uma presença profissional onlin
 https://rafaelribeiro2003.github.io/rafael-ribeiro-portfolio/
 
 ## Screenshot:
-![Personal Portfolio](./preview.png)
+![Personal Portfolio](./preview.gif)
 
 ## Créditos: 
 Rafael Ribeiro
@@ -37,7 +37,7 @@ The main goal of this project was to establish a professional online presence, p
 https://rafaelribeiro2003.github.io/rafael-ribeiro-portfolio/
 
 ## Screenshot
-![Personal Portfolio](./preview.png)
+![Personal Portfolio](./preview.gif)
 
 ## Credits
 Rafael Ribeiro
