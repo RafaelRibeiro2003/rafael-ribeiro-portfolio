@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rafael Ribeiro | Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="logotipo">
+                <a href="#home" class="logotipo">Rafael Ribeiro<span>.</span></a>
+            </div>
+            <div class="navigation">
+                <nav>
+                    <a href="#about" data-translate="navAbout">Sobre</a>
+                    <a href="#education" data-translate="navEducation">Educação</a>
+                    <a href="#experience" data-translate="navExperience">Experiência</a>
+                    <a href="#skills" data-translate="navSkills">Competências</a>
+                    <a href="#projects" data-translate="navProjects">Projetos</a>
+                    <a href="#contact" data-translate="navContact">Contacto</a>
+                </nav>
+            </div>
+            <div class="controls">
+                <button id="languageToggle">EN</button>
+                <button id="themeToggle">☼</button>
+            </div>
+        </header>
+
+
+
+
+        <!-- Welcome Section / Home -->
+        <section class="welcome-section" id="home">
+            <div class="welcome-content">
+                <h1>
+                    <span data-translate="hello">Olá, sou</span>
+                    <br>
+                    <span class="welcome-name">Rafael Ribeiro.</span>
+                </h1>
+
+                <h2 data-translate="role"> 
+                    Engenheiro Informático · Cibersegurança · Software Development
+                </h2>
+                <p class="welcome-description" data-translate="intro">
+                    Engenheiro Informático apaixonado pelo desenvolvimento de software e pela cibersegurança, com foco em Java, Spring Boot, Python, bases de dados, cloud e segurança de redes.
+                </p>
+                <div class="welcome-buttons">
+                    <a href="#contact" class="btn primary" data-translate="contactMe">
+                        Contacta-me
+                    </a>
+                    <a href="documents/cv_rafael_ribeiro.pdf" class="btn secondary" target="_blank" download data-translate="downloadCV">
+                        Descarregar CV
+                    </a>
+                </div>            
+            </div>
+            <div class="profile">
+                <img src="images/rafael-ribeiro.jpg" alt="Rafael Ribeiro" class="profile-image" >
+            </div>
+        </section>
+
+
+
+
+        <!-- About Section -->
+        <section class="section" id="about">
+            <p class="eyebrow">01 / ABOUT</p>
+            
+            <h2 data-translate="aboutTitle">Um pouco sobre mim.</h2>
+
+            <p data-translate="aboutText1">
+                Sou Engenheiro Informático, formado pelo IPCB, e encontro-me atualmente especializado nas áreas da Cibersegurança e da Informática Forense. 
+                A minha formação permitiu-me desenvolver uma base sólida em desenvolvimento de software, bases de dados, redes e tecnologias Cloud, com particular contacto com o Microsoft Azure.
+            </p>
+            <p data-translate="aboutText2">
+                Ao longo do meu percurso académico, trabalhei com tecnologias como Java, Spring Boot, Python, PHP, HTML e SQL, desenvolvendo projetos que me permitiram consolidar conhecimentos tanto no desenvolvimento de aplicações como na gestão e utilização de bases de dados.
+            </p>
+            <p data-translate="aboutText3">
+                O meu interesse pela Cibersegurança levou-me a aprofundar conhecimentos em áreas como a análise forense digital, a segurança de redes, a monitorização e os testes de intrusão (Pentesting). 
+                Atualmente, tenho especial interesse nas áreas de Security Operations Center (SOC), monitorização de dispositivos, Threat Hunting e Pentesting.
+            </p>
+            <p data-translate="aboutText4">
+                Procuro continuar a desenvolver as minhas competências e aplicar os meus conhecimentos em projetos que integrem desenvolvimento de software, infraestrutura e cibersegurança.
+            </p>
+
+
+            <div class="about-details">
+
+                <div class="about-card">
+                    <h3 data-translate="personalInfoTitle">Dados Pessoais</h3>
+
+                    <ul class="about-list">
+                        <li>
+                            <strong data-translate="personalName">Nome:</strong>
+                            Rafael Coelho Ribeiro
+                        </li>
+                        <li>
+                            <strong data-translate="personalBirth">Data de nascimento:</strong>
+                            15/06/2003
+                        </li>
+                        <li>
+                            <strong data-translate="personalNationality">Nacionalidade:</strong>
+                            <span data-translate="personalNationalityValue">Portuguesa</span>
+                        </li>
+                        <li>
+                            <strong data-translate="personalGender">Sexo:</strong>
+                            <span data-translate="personalGenderValue">Masculino</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="about-card">
+                    <h3 data-translate="languagesTitle">Competências Linguísticas</h3>
+
+                    <ul class="about-list">
+                        <li>
+                            <strong data-translate="languagePortuguese">Português:</strong>
+                            <span data-translate="languageNative">Nativo</span>
+                        </li>
+
+                        <li>
+                            <strong data-translate="languageEnglish">Inglês:</strong>
+
+                            <ul class="language-sublist">
+                                <li>
+                                    <strong data-translate="languageReading">Compreensão escrita:</strong>
+                                    <span class="language-level">C1</span> –
+                                    <span data-translate="levelAdvanced">Avançado</span>
+                                </li>
+
+                                <li>
+                                    <strong data-translate="languageSpeaking">Expressão oral:</strong>
+                                    <span class="language-level">B1</span> –
+                                    <span data-translate="levelIntermediate">Intermédio</span>
+                                </li>
+
+                                <li>
+                                    <strong data-translate="languageWriting">Expressão escrita:</strong>
+                                    <span class="language-level">B2</span> –
+                                    <span data-translate="levelIntermediate">Intermédio</span>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="about-card about-hobbies">
+                    <h3 data-translate="hobbiesTitle">Passatempos e Interesses Pessoais</h3>
+
+                    <ul class="about-list">
+                        <li data-translate="hobby1">
+                            Gosto de cozinhar e experimentar novas receitas.
+                        </li>
+
+                        <li data-translate="hobby2">
+                            Gosto de fazer caminhadas, correr e participar em algumas provas de 12 km, 15 km e 21km.
+                        </li>
+
+                        <li data-translate="hobby3">
+                            Gosto de viajar e conhecer novos sítios.
+                        </li>
+
+                        <li data-translate="hobby4">
+                            Fui escuteiro durante 10 anos.
+                        </li>
+
+                        <li data-translate="hobby5">
+                            Gosto de ver filmes e séries.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="about-card about-objectives">
+                    <h3 data-translate="objectivesTitle">Objetivos</h3>
+
+                    <ul class="about-list">
+                        <li data-translate="objective1">
+                            Obter uma posição de nível inicial na área de TI ou cibersegurança para ganhar experiência prática.
+                        </li>
+
+                        <li data-translate="objective2">
+                            Desenvolver as minhas competências em áreas como desenvolvimento Web, bases de dados e cibersegurança.
+                        </li>
+
+                        <li data-translate="objective3">
+                            Continuar a aprender cibersegurança em plataformas como TryHackMe e Hack The Box.
+                        </li>
+
+                        <li data-translate="objective4">
+                            Participar em desafios de CTF (Capture The Flag).
+                        </li>
+
+                        <li data-translate="objective5">
+                            Melhorar as minhas competências linguísticas.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+        
+        <!-- Education Section -->
+        <section class="section" id="education">
+            <p class="eyebrow">02 / EDUCATION</p>
+
+            <h2 data-translate="educationSectionTitle">Educação e formação.</h2>
+
+            <div class="timeline">
+                <article>
+                    <span>2021 - 2024</span>
+                    <h3 data-translate="educationTitle1">Licenciatura em Engenharia Informática</h3>
+                    <p data-translate="educationPlace1">Instituto Politécnico de Castelo Branco</p>
+                    <p class="education-grade" data-translate="educationGrade1">Classificação final: 16 Valores</p>
+                    <ul>
+                        <li data-translate="educationText11">Redes de Computadores (Cisco Packet Tracer, Wireshark)</li>
+                        <li data-translate="educationText12">Computação Móvel (Android Studio - Java e Kotlin)</li>
+                        <li data-translate="educationText13">Desenvolvimento Web (HTML, CSS e PHP)</li>
+                        <li data-translate="educationText14">Base de Dados (Oracle - SQL, Neo4j, MongoDB, Power BI)</li>
+                        <li data-translate="educationText15">Linguagens de Programação (Java e Python)</li>
+                        <li data-translate="educationText16">Serviços de Informática em Nuvem (Azure)</li>
+                        <li data-translate="educationText17">Internet das coisas</li>
+                        <li data-translate="educationText18">Cibersegurança (Palo Alto Networks, Criptografia, Kali Linux)</li>
+                    </ul>  
+                </article>
+
+                <article>
+                    <span>2024 - 2026</span>
+                    <h3 data-translate="educationTitle2">Mestrado em Cibersegurança e Informática Forense</h3>
+                    <p data-translate="educationPlace2">Instituto Politécnico de Leiria</p>
+                    <p class="education-grade" data-translate="educationGrade2">Classificação final: Em curso</p>
+                    <ul>
+                        <li data-translate="educationText21">Teste de Penetração: Kali Linux (Nmap, Nessus, OpenVAS)</li>
+                        <li data-translate="educationText22">Análise Forense Digital (Autopsy, Wireshark)</li>
+                        <li data-translate="educationText23">Gestão de Segurança (Políticas e práticas de cibersegurança)</li>
+                        <li data-translate="educationText24">Criptografia (RSA, AES, técnicas de encriptação e hashing)</li>
+                        <li data-translate="educationText25">Gestão e Análise de Relatórios de Segurança (Altair RapidMiner)</li>
+                    </ul>  
+                </article>
+            </div>
+        </section>
+    
+
+
+
+        <!-- Experience Section -->
+        <section class="section" id="experience">
+            <p class="eyebrow">03 / EXPERIENCE</p>
+
+            <h2 data-translate="experienceSectionTitle">Experiência Profissional.</h2>
+
+            <div class="timeline">
+                <article>
+                    <span>09/2025 - 06/2026</span>
+                    <h3 data-translate="experienceTitle1">Estagiário em Cibersegurança (Remoto)</h3>
+                    <p data-translate="experienceCompany1">Cachapuz - Bilanciai Group</p>
+                    <p data-translate="experiencePlace1">Braga</p>
+                    <h3 class="experience-role" data-translate="experienceRole1">Estágio Curricular no âmbito do Mestrado em Cibersegurança e Informática Forense do Instituto Politécnico de Leiria</h3>
+                    <p class="education-grade" data-translate="educationGrade1">Classificação do Projeto de estágio: 18 Valores</p>
+
+                    <ul>
+                        <li data-translate="experienceText11">Análise de sistemas, redes e serviços da organização (firewall, router, domínios e subdomínios)</li>
+                        <li data-translate="experienceText12">Reconhecimento e enumeração de ativos (Nmap, Subfinder, Whois , etc)</li>
+                        <li data-translate="experienceText13">Identificação de vulnerabilidades (Nessus, OpenVAS)</li>
+                        <li data-translate="experienceText14">Testes de segurança web (Burp Suite, Nikto)</li>
+                        <li data-translate="experienceText15">Análise de tráfego (Wireshark, tcpdump)</li>
+                        <li data-translate="experienceText16">Testes de autenticação e força bruta (Hydra e Medusa)</li>
+                        <li data-translate="experienceText17">Documentação técnica</li>
+                        <li data-translate="experienceText18">Apoio na implementação de soluções de monitorização (Datadog)</li>
+                        <li data-translate="experienceText19">Gestão e análise de identidades e acessos com Microsoft Entra ID.</li>
+                        <li data-translate="experienceText110">Configuração de políticas de proteção de dados com Microsoft Purview.</li>
+                    </ul>  
+
+                    <div class="recommendation">
+                        <p data-translate="recommendationText">
+                            Carta de recomendação emitida pela Cachapuz, assinada digitalmente pela Administração de Sistemas da empresa.
+                        </p>
+                        <a href="documents/CartaRecomendacaoRafaelRibeiro.pdf" class="btn secondary" target="_blank" data-translate="recommendationButton"> 
+                            Descarregar PDF
+                        </a>
+                    </div>
+                    
+                </article>
+            </div>
+        </section>
+
+        
+
+
+        <!-- Skills Section -->
+        <section class="section" id="skills">
+            <p class="eyebrow">04 / SKILLS</p>
+
+            <h2 data-translate="skillsTitle">Competências.</h2>
+
+            <div class="skills">
+
+                <div class="skill-card">
+                    <h3 data-translate="skillCategory1">Cibersegurança</h3>
+                    <ul>
+                        <li data-translate="skillText11">Cibersegurança</li>
+                        <li data-translate="skillText12">Testes de Intrusão</li>
+                        <li><strong>SOC:</strong> Datadog</li>
+                        <li><strong data-translate="skillLabel13">Threat Hunting:</strong> Wazuh</li>
+                        <li><strong data-translate="skillLabel14">Informática Forense Digital:</strong> Autopsy, FTK Imager, Volatility</li>
+                        <li data-translate="skillText15">Segurança de Redes</li>
+                        <li data-translate="skillText16">Avaliação de Vulnerabilidades</li>
+                        <li data-translate="skillText17">Criptografia</li>
+                        <li><strong>CTF:</strong> OverTheWire</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h3 data-translate="skillCategory2">Ferramentas de Segurança</h3>
+                    <ul>
+                        <li>Kali Linux</li>
+                        <li>Nmap</li>
+                        <li>Nessus</li>
+                        <li>OpenVAS</li>
+                        <li>Burp Suite</li>
+                        <li>Wireshark</li>
+                        <li>tcpdump</li>
+                        <li>Hydra</li>
+                        <li>Medusa</li>
+                        <li>Autopsy</li>
+                        <li>Subfinder</li>
+                        <li>Nikto</li>
+                        <li>Wazuh</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h3 data-translate="skillCategory3">Normas e Conformidade</h3>
+                    <ul>
+                        <li>ISO/IEC 27001</li>
+                        <li>ISO/IEC 27002</li>
+                        <li>NIS2</li>
+                        <li>GDPR / RGPD</li>
+                        <li data-translate="skillText31">NIST Cybersecurity Framework</li>
+                        <li>CIS Controls</li>
+                        <li>MITRE ATT&CK</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h3 data-translate="skillCategory4">Desenvolvimento de Software</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Spring Boot</li>
+                        <li>Python</li>
+                        <li>PHP</li>
+                        <li>JavaScript</li>
+                        <li>HTML5 & CSS3</li>
+                        <li data-translate="skillText41">Kotlin (Desenvolvimento de Aplicações Móveis)</li>
+                        <li>Node.js</li>
+                        <li>React</li>
+                        <li data-translate="skillText42">Assembly (Linguagem de Baixo Nível)</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h3 data-translate="skillCategory5">Bases de Dados e Análise de Dados</h3>
+                    <ul>
+                        <li>SQL</li>
+                        <li>MySQL</li>
+                        <li>Oracle Database</li>
+                        <li>MongoDB</li>
+                        <li>Neo4j</li>
+                        <li>Power BI</li>
+                        <li>Altair RapidMiner</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h3 data-translate="skillCategory6">Redes e Infraestrutura</h3>
+                    <ul>
+                        <li data-translate="skillText61">Redes de Computadores</li>
+                        <li>TCP/IP</li>
+                        <li>DNS</li>
+                        <li data-translate="skillText62">Firewalls</li>
+                        <li data-translate="skillText63">Routers</li>
+                        <li>Cisco Packet Tracer</li>
+                        <li>Linux</li>
+                        <li data-translate="skillText64">Programação de Scripts Bash</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h3 data-translate="skillCategory7">Cloud e Sistemas</h3>
+                    <ul>
+                        <li>Microsoft Azure</li>
+                        <li>Microsoft Entra ID</li>
+                        <li>Microsoft Purview</li>
+                        <li>Datadog</li>
+                        <li data-translate="skillText71">Gestão de Identidades e Acessos (IAM)</li>
+                        <li data-translate="skillText72">Computação em Nuvem</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <h3 data-translate="skillCategory8">Outras Tecnologias</h3>
+                    <ul>
+                        <li>Web Scraping</li>
+                        <li data-translate="skillText82">Extração de Dados de PDF</li>
+                        <li>TensorFlow Lite</li>
+                        <li data-translate="skillText83">Redes Neuronais Convolucionais (CNN)</li>
+                        <li>Android Studio</li>
+                        <li data-translate="skillText84">Desenvolvimento de Aplicações Móveis</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+
+        
+        <!-- Projects Section -->
+        <section class="section" id="projects">
+            <p class="eyebrow">05 / PROJECTS</p>
+            <h2 data-translate="projectsTitle">Projetos.</h2>
+
+            <div class="projects">
+
+
+                <article class="project-card">
+                    <h3 data-translate="projectTitle1">
+                        Aplicação Móvel para Reconhecimento de Pratos Portugueses
+                    </h3>
+                    <p class="project-description" data-translate="projectDescription1">
+                        Desenvolvimento de uma aplicação móvel para reconhecimento de pratos tradicionais portugueses através de classificação de imagem.
+                    </p>
+
+                    <ul>
+                        <li data-translate="projectText11">
+                            Utilização da câmara do dispositivo para capturar imagens dos pratos.
+                        </li>
+                        <li data-translate="projectText12">
+                            Processamento local das imagens com recurso ao TensorFlow Lite.
+                        </li>
+                        <li data-translate="projectText13">
+                            Modelo baseado numa rede neuronal convolucional (CNN) treinada de forma personalizada.
+                        </li>
+                        <li data-translate="projectText14">
+                            Foco no reconhecimento rápido e offline de pratos da gastronomia portuguesa.
+                        </li>
+                    </ul>
+
+                    <div class="project-links">
+                        <a href="https://github.com/RafaelRibeiro2003/Android-Studio-Food-Recognition-with-Machine-Learning"
+                        target="_blank" class="btn secondary" rel="noopener noreferrer">
+                            App <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="https://github.com/RafaelRibeiro2003/Dataset-de-Comida-Portuguesa"
+                        target="_blank" class="btn secondary" rel="noopener noreferrer">
+                            Dataset <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="https://github.com/RafaelRibeiro2003/Deep-learning-com-dataset-de-comida-portuguesa"
+                        target="_blank" class="btn secondary" rel="noopener noreferrer">
+                            Model <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+
+                    <div class="project-technologies">
+                        <span>Android Studio</span>
+                        <span>Kotlin</span>
+                        <span>TensorFlow Lite</span>
+                        <span>Python</span>
+                        <span>CNN</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+                    <h3 data-translate="projectTitle2">
+                        Wordlist de Nomes Portugueses (Portugal)
+                    </h3>
+                    <p class="project-description" data-translate="projectDescription2">
+                        Projeto de criação de uma wordlist de nomes portugueses para enumeração de utilizadores em cibersegurança.
+                    </p>
+
+                    <ul>
+                        <li data-translate="projectText21">
+                            Desenvolvimento de três scripts em Python para recolha de nomes próprios, apelidos e combinações automáticas.
+                        </li>
+                        <li data-translate="projectText22">
+                            Extração de dados a partir de documentos PDF oficiais e scraping de websites.
+                        </li>
+                        <li data-translate="projectText23">
+                            Geração de um dataset com cerca de 7.548 nomes próprios e 21.422 apelidos.
+                        </li>
+                        <li data-translate="projectText24">
+                            Geração de aproximadamente 161 milhões de combinações de nomes.
+                        </li>
+                    </ul>
+
+                    <div class="project-links">
+                        <a href="https://github.com/RafaelRibeiro2003/portuguese-name-wordlist/"
+                        target="_blank" class="btn secondary" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                            <span data-translate="projectGithubButton">Ver projeto no GitHub</span>
+                        </a>
+                    </div>
+
+                    <div class="project-technologies">
+                        <span>Python</span>
+                        <span>Web Scraping</span>
+                        <span>PDF Extraction</span>
+                        <span>Data Processing</span>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3 data-translate="projectTitle3">
+                        Aprendizagem de Programação Web
+                    </h3>
+
+                    <p class="project-description" data-translate="projectDescription3">
+                        Aprendizagem de desenvolvimento Web e de aplicações através de plataformas online,
+                        principalmente The Odin Project e YouTube, com o objetivo de desenvolver projetos pessoais.
+                    </p>
+
+                    <ul>
+                        <li data-translate="projectText31">
+                            Aprendizagem de desenvolvimento Web e de aplicações através de recursos online.
+                        </li>
+                        <li data-translate="projectText32">
+                            Estudo e prática de HTML, CSS, JavaScript, Node.js e React.
+                        </li>
+                        <li data-translate="projectText33">
+                            Aplicação dos conhecimentos adquiridos no desenvolvimento de vários projetos práticos.
+                        </li>
+                        <li data-translate="projectText34">
+                            Desenvolvimento de projetos no âmbito do percurso de aprendizagem The Odin Project.
+                        </li>
+                    </ul>
+
+
+                    <div class="learning-projects">
+
+                        <div class="learning-project">
+                            <img src="images/projects/rock-paper-scissors.gif" alt="Rock Paper Scissors">
+
+                            <h4>Rock Paper Scissors</h4>
+                            <p data-translate="learningDesc1">
+                                Interactive game where the player competes against the computer in a classic Rock Paper Scissors challenge.
+                            </p>
+
+                            <div class="learning-project-links">
+                                <a href="https://github.com/RafaelRibeiro2003/Project-Rock-Paper-Scissors-theodinproject" target="_blank" rel="noopener noreferrer" class="btn secondary">
+                                    GitHub
+                                </a>
+
+                                <a href="https://rafaelribeiro2003.github.io/Project-Rock-Paper-Scissors-theodinproject/" target="_blank" rel="noopener noreferrer" class="btn secondary">
+                                    <span data-translate="projectLiveButton">Live Demo</span>
+                                </a>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="learning-project">
+                            <img src="images/projects/admin-dashboard.png" alt="Admin Dashboard">
+
+                            <h4>Admin Dashboard</h4>
+                            <p data-translate="learningDesc2">
+                                Dashboard interface designed to display information.
+                            </p>
+
+                            <div class="learning-project-links">
+                                <a href="https://github.com/RafaelRibeiro2003/Project-Admin-Dashboard-theodinproject" target="_blank" rel="noopener noreferrer" class="btn secondary">
+                                    GitHub
+                                </a>
+                                <a href="https://rafaelribeiro2003.github.io/Project-Admin-Dashboard-theodinproject/" target="_blank" rel="noopener noreferrer" class="btn secondary">
+                                    <span data-translate="projectLiveButton">Live Demo</span>
+                                </a>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="learning-project">
+                            <img src="images/projects/login-page.gif" alt="Login Page">
+
+                            <h4>Login Page</h4>
+                            <p data-translate="learningDesc3">
+                                User authentication interface featuring a login form and a responsive design.
+                            </p>
+
+                            <div class="learning-project-links">
+                                <a href="https://github.com/RafaelRibeiro2003/Project-Login-Page-theodinproject" target="_blank" rel="noopener noreferrer" class="btn secondary">
+                                    GitHub
+                                </a>
+
+                                <a href="https://rafaelribeiro2003.github.io/Project-Login-Page-theodinproject/" target="_blank" rel="noopener noreferrer" class="btn secondary">
+                                    <span data-translate="projectLiveButton">Live Demo</span>
+                                </a>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="learning-project">
+                            <img src="images/projects/restaurant-page.gif" alt="Restaurant Page">
+
+                            <h4>Restaurant Page</h4>
+                            <p data-translate="learningDesc4">
+                                Restaurant website built with HTML, CSS and JavaScript, featuring dynamic content, modular JavaScript and Webpack.
+                            </p>
+
+                            <div class="learning-project-links">
+                                <a href="https://github.com/RafaelRibeiro2003/Project-Restaurant-Page-theodinproject" target="_blank" rel="noopener noreferrer" class="btn secondary">
+                                    GitHub
+                                </a>
+                                <a href="https://rafaelribeiro2003.github.io/Project-Restaurant-Page-theodinproject/" target="_blank" rel="noopener noreferrer" class="btn secondary">
+                                    <span data-translate="projectLiveButton">Live Demo</span>
+                                </a>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="learning-project">
+                            <img src="images/projects/todo-list.gif" alt="Todo List">
+                            <h4>Todo List</h4>
+
+                            <p data-translate="learningDesc5">
+                                Task management application that allows users to organize and manage their daily activities, built with JavaScript, HTML, CSS and Webpack.
+                            </p>
+
+                            <div class="learning-project-links">
+                                <a href="https://github.com/RafaelRibeiro2003/Project-Todo-List-theodinproject" target="_blank" rel="noopener noreferrer" class="btn secondary">
+                                    GitHub
+                                </a>
+
+                                <a href="https://rafaelribeiro2003.github.io/Project-Todo-List-theodinproject/" target="_blank" rel="noopener noreferrer" class="btn secondary">
+                                    <span data-translate="projectLiveButton">Live Demo</span>
+                                </a>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="learning-project">
+                            <img src="images/projects/weather-app.gif" alt="Weather App">
+
+                            <h4>Weather App</h4>
+                            <p data-translate="learningDesc6">
+                                Weather application that allows users to search for different locations and view current weather conditions and forecasts, built with JavaScript, HTML, CSS, Webpack and Visual Crossing Weather API.
+                            </p>
+
+                            <div class="learning-project-links">
+                                <a href="https://github.com/RafaelRibeiro2003/Project-Weather-App-theodinproject" target="_blank" rel="noopener noreferrer" class="btn secondary">
+                                    GitHub
+                                </a>
+                                <a href="https://rafaelribeiro2003.github.io/Project-Weather-App-theodinproject/" target="_blank" rel="noopener noreferrer" class="btn secondary">
+                                    <span data-translate="projectLiveButton">Live Demo</span>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-technologies">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Node.js</span>
+                        <span>React</span>
+                        <span>Webpack</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+
+
+        <!-- Contact Section -->
+        <section class="section contact" id="contact">
+            <p class="eyebrow">06 / CONTACT</p>
+
+            <h2 data-translate="contactTitle">
+                Vamos conversar?
+            </h2>
+
+
+            <div class="contact-links">
+
+                <a href="mailto:rafa2003ribeiro@gmail.com" class="contact-item">
+                    <div>
+                        <span data-translate="contactEmail">Email</span>
+                        <strong>rafa2003ribeiro@gmail.com</strong>
+                    </div>
+                </a>
+
+
+                <a href="https://www.linkedin.com/in/rafael-ribeiro-a15423311/" target="_blank" rel="noopener noreferrer" class="contact-item">
+                    <div>
+                        <span>LinkedIn</span>
+                        <strong data-translate="contactLinkedin">Perfil profissional</strong>
+                    </div>
+                </a>
+
+
+                <a href="https://github.com/RafaelRibeiro2003" target="_blank" rel="noopener noreferrer" class="contact-item">
+                    <div>
+                        <span>GitHub</span>
+                        <strong>RafaelRibeiro2003</strong>
+                    </div>
+                </a>
+
+
+                <div class="contact-item">
+                    <div>
+                        <span data-translate="contactLocation">Localização</span>
+                        <strong>Alcobaça, Leiria, Portugal</strong>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+    <footer>
+        © <span id="year"></span> Rafael Ribeiro
+    </footer>
+
+    <script src="script.js"></script>
+    </body>
+</html>
